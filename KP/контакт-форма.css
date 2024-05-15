@@ -1,0 +1,8 @@
+.section-1 .image-1 {
+    width: 500px;
+    height: 400px;
+    margin: 50px auto !important;
+}
+.section-1 .image-1:hover{
+    transform: scale(1.15) !important;
+}

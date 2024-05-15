@@ -1,0 +1,46 @@
+.zina {
+    text-align: center;
+}
+
+.zina:hover {
+    color: lightpink!important;
+}
+p{
+    text-align: center;
+}
+@media (max-width: 1199px) {
+   .zina{
+    font-size: 3rem;
+    margin-top: 20px;
+   }
+   p{
+    font-size: 2rem;
+   }
+}
+
+@media (max-width: 991px) {
+    .zina{
+        font-size: 3.25rem;
+       }
+       p{
+        font-size: 2.25rem;
+       }
+}
+
+@media (max-width: 767px) {
+    .zina{
+        font-size: 3.5rem;
+       }
+       p{
+        font-size: 2.5rem;
+       }
+}
+
+@media (max-width: 575px) {
+    .zina{
+        font-size: 4rem;
+       }
+       p{
+        font-size: 2.75rem;
+       }
+}

@@ -1,0 +1,249 @@
+.icon {
+    display: block;
+    line-height: 0;
+    border-width: 0px;
+}
+
+.reg-icon img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.reg-icon {
+    display: flex;
+    justify-content: flex-end;
+ }
+ .reg-icon a:first-child {
+    margin-right: 10px;
+ }
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 10px;
+    height: 71px;
+    margin-bottom: -20px; 
+    z-index: 1000;
+}
+
+.header .icon-1 {
+    width: 127px;
+    height: 127px;
+    margin: -50px 50px 0 auto;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.7;
+}
+
+footer, header, nav, section {
+    display: block;
+}
+
+body, section, header, footer {
+    position: relative;
+}
+
+.text-block {
+    display: table;
+}
+
+.image {
+    display: block;
+    background-position: 50% 50%;
+}
+
+.sheet {
+    margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+    .sheet { width: 1140px !important; }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .sheet { width: 940px !important; }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .sheet { width: 720px !important; }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .sheet { width: 540px !important; }
+}
+
+@media (max-width: 575px) {
+    .sheet { width: 340px !important; }
+}
+
+.layout-cell {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-left: 0; 
+}
+.nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    align-items: center; 
+}
+.nav-item {
+    color: lightgray;
+    font-size: 1.5rem;
+    padding: 10px 30px;
+    display: inline;
+}
+
+.nav-item:hover .nav-link {
+    color: lightskyblue;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h3, h5 {
+    line-height: 1;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 2.25rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-size: 1.125rem;
+}
+
+.align-center {
+    text-align: center;
+}
+
+a.nav-link:hover {
+    color: lightskyblue !important;
+}
+
+.header .image-1 {
+    height: 80px;
+    width: 100px;
+    position: absolute;
+    top: 0; 
+    left: 0; 
+}
+
+.header .men1 {
+    margin-top: 0px; 
+}
+@media (max-width: 1199px) {
+    .header .image-1 {
+        height: 80px;
+        width: 100px;
+    }
+    .header .men1 {
+        margin-top: 0px;
+        margin-left: auto;
+    }
+    .header .icon-1 {
+        margin-bottom: 30px;
+        margin-right: 10px;
+    }
+    .nav-item {
+        font-size: 1.2rem; 
+    }
+}
+
+@media (max-width: 991px) {
+    .header .image-1 {
+        height: 80px;
+        width: 100px;
+    }
+    .header .men1 {
+        margin-top: 0px;
+        margin-left: auto;
+    }
+    .header .icon-1 {
+        margin-bottom: 30px;
+    }
+    .nav-item {
+        font-size: 1.1rem; 
+    }
+}
+
+@media (max-width: 767px) {
+    .header .image-1 {
+        height: 80px;
+        width: 100px;
+    }
+    li {
+        font-size: 1em; 
+    }
+    .nav-link {
+        padding-left: 0px !important;
+    }
+    .header .men1 {
+        margin-top: 0px;
+        margin-left: auto;
+    }
+    .header .icon-1 {
+        margin-top: -55px;
+        margin-right: 40px;
+    }
+    .nav-item {
+        font-size: 1rem; 
+    }
+}
+
+@media (max-width: 575px) {
+    .header .image-1 {
+        height: 80px;
+        width: 100px;
+    }
+    .nav-link {
+        padding-right: 5px !important;
+    }
+    .header .men1 {
+        margin-top: 0px;
+        margin-left: auto;
+    }
+    .header .icon-1 {
+        width: 40px;
+        height: 40px;
+        margin-top: -50px;
+        margin-right: 10px;
+    }  
+    .image-contain {
+        margin: -15px auto 0 -70px !important;
+    }
+    .footer .position-1 {
+        margin: 65px 66px -29px -6px;
+    }
+    .nav-item {
+        font-size: 0.9rem; 
+    }
+}
+   footer{
+       min-height: 230px;
+       color: lightgray;
+       background-color: black;
+   }
+   .footer .position-1 {
+       height: auto;
+       min-height: 152px;
+       margin: 40px 84px -12px -24px;
+       text-align: left;
+   }

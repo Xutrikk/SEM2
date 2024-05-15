@@ -1,0 +1,170 @@
+  .section-5 .sheet-1 {
+    min-height: 622px;
+  }
+  .section-5 .text-1 {
+    font-size: 3rem;
+    margin: 1px auto 0;
+  }
+  .section-5 .list-1 {
+    grid-template-rows: auto;
+    margin-top: 15px;
+    margin-bottom: 60px;
+  }
+  .section-5 .container-layout-1,
+  .section-5 .container-layout-2,
+  .section-5 .container-layout-3{
+      padding: 18px 7px;
+  }
+  .section-5 .image-1,
+  .section-5 .image-2,
+  .section-5 .image-3{
+      width: 111px;
+      height: 111px;
+      margin: 0 auto;
+  }
+  .section-5 .image-1 {
+      background-size:cover;
+      background-image: url("images/danik.jpg");
+  }
+  .section-5 .text-2,
+  .section-5 .text-4,
+  .section-5 .text-6 {
+      font-size: 0.75rem;
+      margin: 35px 25px 0 23px;
+  }
+  .section-5 .text-3,
+  .section-5 .text-5,
+  .section-5 .text-7{
+      margin: 15px 84px 0 82px;
+  }
+  .section-5 .icon-1,
+  .section-5 .icon-2,
+  .section-5 .icon-3{
+      width: 18px;
+      height: 18px;
+      margin: 5px 120px 0 auto;
+      padding: 0;
+  }
+  .section-5 .image-2 {
+      background-size: cover;
+      background-image: url("images/spike.webp");
+  }
+  .section-5 .image-3 {
+      background-size: cover;
+      background-image: url("images/darwin.webp");
+  }
+  .section-5 .image-1:hover,
+  .section-5 .image-2:hover,
+  .section-5 .image-3:hover
+  {
+      transform: scale(1.15) !important;
+  }
+   .ss:hover
+  {
+      transform: scale(1.15) !important;
+      color: lightpink;
+  }
+  .aa:hover{
+   color: lightpink;
+  }
+  @media (max-width: 1199px) {
+    .section-5 .sheet-1 {
+      min-height: 711px;
+    }
+    .section-5 .text-1 {
+      width: auto;
+      margin-top: 36px;
+      margin-left: 99px;
+    }
+    .section-5 .list-1 {
+      margin-top: 50px;
+    }
+    .section-5 .repeater-1 {
+      min-height: 467px;
+    }
+      .section-5 .text-2,
+      .section-5 .text-4,
+      .section-5 .text-6{
+          margin-left: 0;
+          margin-right: 0;
+      }
+      .section-5 .text-3,
+      .section-5 .text-5,
+      .section-5 .text-7{
+          width: 193px;
+          margin-left: auto;
+          margin-right: auto;
+      }
+  }
+  @media (max-width: 991px) {
+    .section-5 .sheet-1 {
+      min-height: 1058px;
+    }
+    .section-5 .text-1 {
+      font-size: 1.875rem;
+    }
+    .section-5 .list-1 {
+      margin-top: 82px;
+    }
+      .section-5 .text-2,
+      .section-5 .text-4,
+      .section-5 .text-6{
+          width: auto;
+          margin-top: 36px;
+      }
+      .section-5 .text-3,
+      .section-5 .text-5,
+      .section-5 .text-7{
+          margin-top: 14px;
+      }
+  }
+  @media (max-width: 767px) {
+    .section-5 .sheet-1 {
+      min-height: 1223px;
+    }
+    .section-5 .text-1 {
+      margin-top: 35px;
+      margin-left: 35px;
+    }
+    .section-5 .list-1 {
+      margin-top: 36px;
+    }
+    .section-5 .repeater-1 {
+      grid-template-columns: 100%;
+    }
+  }
+  @media (max-width: 575px) {
+    .section-5 .sheet-1 {
+      min-height: 1482px;
+    }
+    .section-5 .text-1 {
+      margin-top: 26px;
+      margin-left: 9px;
+    }
+    .section-5 .list-1 {
+      margin-top: 98px;
+    }
+      .section-5 .icon-1,
+      .section-5 .icon-2,
+      .section-5 .icon-3{
+          margin-right: 74px;
+      }
+  }
+  .section-5 .text-2.text-2.text-2:hover,
+  .section-5 .text-4.text-4.text-4:hover,
+  .section-5 .text-6.text-6.text-6:hover {
+      border-style: solid !important;
+      border-width: 2px !important;
+      border-color: #404040 !important;
+  }
+  .section-5 .image-1.image-1.image-1.hover {
+    box-shadow: 2px 2px 8px 0px rgba(128,128,128,1) !important;
+    transform: scale(1)  !important;
+  }
+  .image-circle {
+      border-radius: 50% !important;
+  }
+.repeater {
+    display: grid;
+    grid-template-columns: repeat(3, 33.33333333%);
+}

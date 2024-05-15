@@ -1,0 +1,86 @@
+    
+  .store-description {
+      background-color: #f5f5f5;
+      padding: 20px;
+      padding-top: 1px !important;
+    }
+    
+    .store-description h2 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    
+    .store-description p {
+      margin-bottom: 20px;
+    }
+    
+    .store-description p:last-child {
+      margin-bottom: 0;
+    }
+    
+    .privacy-policy {
+      background-color: #f5f5f5;
+      padding: 10px;
+      font-size: 16px;
+      padding-top: 1px !important;
+    }
+    
+    .privacy-policy h2 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    
+    .privacy-policy p {
+      margin-bottom: 20px;
+    }
+    
+    .privacy-policy p:last-child {
+      margin-bottom: 0;
+    }
+    
+    .privacy-policy a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    
+    .privacy-policy a:hover {
+      text-decoration: underline;
+    }
+    
+    .contact-info {
+      background-color: #f5f5f5;
+      padding-top: 1px !important;
+      padding: 10px;
+    }
+    
+    .contact-info h2 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+    
+    .contact-info ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .contact-info ul li {
+      margin-bottom: 10px;
+    }
+    
+    .contact-info ul li:last-child {
+      margin-bottom: 0;
+    }
+    
+    .contact-info ul li a {
+      color: #5b5b5b;
+      text-decoration: none;
+    }
+    
+    .contact-info ul li a:hover {
+      text-decoration: underline;
+      color:rgb(75, 0, 75);
+    }

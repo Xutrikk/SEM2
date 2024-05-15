@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Корзина</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="общее.css">
+    <link rel="stylesheet" href="корзина.css">
+    <link rel="icon" href="images/xkk.jpg">
+    <script  src="корзина.js" defer=""></script>
+</head>
+<body>
+    <header class=" header">
+        <div class=" sheet sheet-1">
+         <a href="xkk.html"><img class="image-contain image-default image-1" src="images/xkk.jpg" alt="Логотип"></a>
+           <nav class="menu men1">
+              <div>
+                 <ul class="nav">
+                    <li class="nav-item"><a class="nav-link" href="главная.html">ГЛАВНАЯ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="товар1.html">НАШ ТОВАР </a></li>
+                    <li class="nav-item"><a class="nav-link" href="ошибка.html">ПРИНАДЛЕЖНОСТИ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="отзывы.html">ОТЗЫВЫ</a></li>
+                 </ul>
+              </div>
+           </nav>
+        </div>
+        <span class="reg-icon icon icon-1">
+         <a href="корзинапуста.html"><img src="images/korzina.jpg" alt="Корзина"></a>
+         <a href="контакт-форма.html"><img src="images/header.png" alt="Контакты"></a>
+        </span>
+     </header>
+<h1 class="zina">КОРЗИНА</h1>
+<section class="cart">
+   <div class="cart-item">
+      <a href="товар.html"><img src="images/image41.png" alt="Товар"></a>
+      <div class="cart-item-info">
+          <a href="товар.html"><h2 class="sss">Электробритва ENС́HEN <br>BlackStone 3 (Black)</h2></a>
+          <p>Код товара: 115</p>
+          <p>Цена: 49.99 BYN</p>
+          <div class="quantity-and-delete">
+            <div>
+                <label for="quantity">Количество:</label>
+                <button id="decrease" class="quantity-button">-</button>
+                <input type="number" id="quantity" name="quantity" min="1" max="10" value="1" readonly>
+                <button id="increase" class="quantity-button">+</button>
+            </div>
+            <a class="delete-btn" href="корзинапуста.html">Удалить</a>
+        </div>
+      </div>
+  </div>
+
+    <div class="cart-summary">
+        <h2>Ваш заказ</h2>
+        <p>Стоимость товаров: 49.99 BYN</p>
+        <p>Доставка: 10 BYN</p>
+        <p>Итого: 59.99 BYN</p>
+        <a href="ошибка.html">Перейти к оформлению</a>
+    </div>
+</section>
+<br><br><br><br><br><br>
+     <footer class="footer">       
+        <div class="sheet layout-cell ">          
+           <div>                
+              <div class="position-1">
+                <h5>+375 29 115 33 68<br>
+                    xkk@yandex.ru
+                 </h5>
+                 <div>
+                    <br>г. Минск, ул. Белорусская 21<br>&#169; XKK<br>
+                 </div>
+              </div>
+           </div>
+        </div> 
+     </footer>
+</body>
+</html>
